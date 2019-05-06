@@ -20,7 +20,6 @@ import {withScriptjs, withGoogleMap, GoogleMap, Marker } from "react-google-maps
           return (
             <div className="map-container">
                 <MapWithAMarker location={this.props.location}
-                googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtitZBG267z9j5VmNbID8yPsrpid4dwcY&v=3.exp&libraries=geometry,drawing,places"
                 loadingElement={<div style={{ height: `100%` }} />}
                 containerElement={<div style={{ height: `200px` }} />}
                 mapElement={<div style={{ height: `100%` }} />}
